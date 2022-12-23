@@ -10,13 +10,13 @@ public class Eje07 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduzca su primera nota: ");
-        double n1=sc.nextInt();
+        double n1=sc.nextDouble();
 
         System.out.print("Introduzca su segunda nota: ");
-        double n2=sc.nextInt();
+        double n2=sc.nextDouble();
 
         System.out.print("Introduzca su tercera nota: ");
-        double n3=sc.nextInt();
+        double n3=sc.nextDouble();
 
         double media=(n1+n2+n3)/3;
 
